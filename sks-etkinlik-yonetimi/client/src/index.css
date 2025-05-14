@@ -1,0 +1,27 @@
+/* index.css */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.MuiSelect-select {
+    display: flex;
+    align-items: center;
+}
+
+.unit-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.slick-dots {
+    bottom: 30px !important;
+}
+
+.slick-dots li button:before {
+    color: white !important;
+    font-size: 12px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #1976d2 !important;
+}
